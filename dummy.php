@@ -11,6 +11,10 @@ class Aku {
         
     }
 
+    public function featureA(){
+        
+    }
+
 }
 echo "hello world";
 echo "kamu siapa?";
