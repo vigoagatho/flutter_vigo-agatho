@@ -1,0 +1,5 @@
+## Rangkuman Materi Advance Function – Async-Await
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas :
+- Dalam penggunaannya selain ada fungsi biasa dan fungsi dengan parameter ada juga fungsi lain yakni **Anonymous Function** yang dimana fungsi ini tidak punya nama dan berisikan data dalam kode, kemudian ada **arrow function** yang berfungsi untuk me-*return* nilai dari data statis atau sebuah proses dalam fungsi.
+- **Async-await** merupakan combo yang digunakan untuk menjalankan sebuah fungsi secara asyncronus.
+- Adapun tipe data collection dalam dart yakni **List** yang berisikan banyak data berurutan, urutannya dimulai dari 0 sehingga bila ingin memanggil data dalam sebuah list harus dihitung dari angka 0, kemudian ada **Map** yang berisikan data dengan pasangan *key-value* 
