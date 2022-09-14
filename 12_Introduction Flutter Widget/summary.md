@@ -1,0 +1,5 @@
+## Rangkuman Materi Introduction Flutter Widget
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas :
+- Flutter merupakan alat pengembangan aplikasi berbasis bahasa dart, flutter terdiri dari sofware development kit(SDK) dan Framework. Untuk membuat sebuah project flutter mirip saat membuat project laravel yakni dengan menjalankan command **"flutter create <project_name>"**.
+- Dalam project flutter, baris kode yang kita buat harus berada dalam folder lib sebagai ruang kerja utama. untuk menjalankan kode dart dalam flutter kita bisa menggunakan browser atau emulator android, emulator sendiri dapat kita akses dari android studio.
+- Widget merupakan class yang digunakan untuk membentuk UI dalam aplikasi, widget bisa terdiri dari beberapa widgets. Stateless Widget biasanya berisikan widget statis dan konstan yang hanya fokus pada tampilan. Stateful Widget bersifat dynamic dan bisa berubah datanya, widget ini menggunakan 2 class berupa widget dan state.
