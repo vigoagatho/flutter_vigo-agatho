@@ -1,0 +1,5 @@
+## Rangkuman Materi Platform Widget
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas :
+- Pada flutter pengembangan aplikasi tidak terbatas hanya dengan desain UI dari android saja melainkan bisa dengan gaya IOS
+- **MaterialApp** merupakan widget dasar yang mengemas seluruh widget dalam app, pada umumnya digunakan pada aplikasi android dengan mengimport **package:flutter/material.dart** pada kode dart yang akan dibuat menjadi aplikasi android, widget ini pertama kali dibuka pada fungsi main sebagai dasar dari sebuah aplikasi.
+- **CupertinoApp** merupakan widget dasar yang mengemas seluruh widget dalam app, widget ini digunakan dalam aplikasi IOS dengan mengimoprt **package:flutter/cupertino.dart** pada kode dart yang akan dijadikan aplikasi IOS, secara struktur sama saja dengan MaterialApp namun diperlukan CUpertinoPageScaffold sebagai pembungkus atau wrapper sebagai pembeda dengan MaterialApp yang menggunakan Scaffold.
