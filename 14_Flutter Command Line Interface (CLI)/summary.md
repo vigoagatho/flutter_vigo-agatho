@@ -1,0 +1,5 @@
+## Rangkuman Materi Flutter Command Line Interface (CLI)
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas :
+- Flutter CLI adalah alat yang digunkan untuk user berinteraksi dengan Flutter SDK lewat terminal, perintah yang terdapat pada flutter CLI antara lain adalah : flutter doctor, flutter create, flutter run, flutter emulators, flutter channel, flutter pub, flutter build, dan flutter clean.
+- Packages Management dalam flutter sendiri dapat dilakukan dalam file pubspec.yaml yang terdapat dalam folder project sebuah aplikasi flutter, biasanya packages yang digunakan dapat di cari pada laman pub.dev, packages memudahkan developer agar tidak perlu membuat sebuah fitur dari 0 atau biasanya disebut building from scratch
+- Menambahkan packages biasanya dilakukan dengan meng-copy baris dependencies pada laman pub.dev yang dimana dengan mengcopy nya ke pubspec.yaml milik kita, saat kita menjalankan command flutter pub get flutter akan membaca ulang dependencies pada pubspec.yaml jika ada perubahan atau keperluan penginstalan maka akan secara otomatis dijalankan oleh flutter.
