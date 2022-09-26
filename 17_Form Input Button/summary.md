@@ -1,0 +1,5 @@
+## Ringkasan Materi Form Input Button
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas :
+- Form input dibuat dengan menggunakan stateful widget, GlobalKey digunakan untuk menyimpan keadaan form.
+- Ada beberapa komponen yang dapat menunjang tampilan form agar dapat terlihat seperti sebuah form. Komponen pertama adalah TextField yang digunakan untuk menerima inputan text dari pengguna, hasil imputan ini memerlukan controller untuk menyimpan hasil inputan. Kemudian ada radio button yang digunakan untuk memberikan opsi pilihan pada pengguna. Checkbox digunakan untuk memberikan multiple choices pada pengguna. Lalu ada Dropdown yang memberikan opsi pilihan bagi pengguna, berbeda dengan Radio Button, Dropdown dibuat agar pilihan yang banyak dapat tertata rapi, terakhir kita punya Button yang berfungsi selayaknya tombol, biasanya digunakan untuk melakukan submit form.
+- Button sendiri memiliki 2 jenis yakni ElevatedButton yang merupakan button yang memiliki text sebagai indikatornya dan IconButton yang memiliki icon sebagai indikatornya. Kedua button ini sama sama memiliki state yang berubah ketika di tekan oleh pengguna.
