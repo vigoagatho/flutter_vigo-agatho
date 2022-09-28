@@ -1,0 +1,5 @@
+## Rangkuman Materi Form Picker (Basic Layouting)
+Berikut adalah 3 poin rangkuman yang saya dapat dari materi diatas
+- Dalam aplikasi dengan base flutter kita bisa menggunakan picker dalam form yang berguna untuk mengambil data diluar sebuah text seperti tanggal, gambar, dan warna. Metode pengambilan data seperti ini dapat disebut sebagai Interactive widget dalam flutter. Yang pertama dan paling sering adalah FilePicker yang biasanya digunakan untuk memasukan gambar profile dan memerlukan akses storage pengguna, kita dapat menggunakan widget ini dengan memasukan atau mengimport FilePicker di laman pubdev kedalam pubspec dan file kode.
+- Data berupa tanggal dapat di ambil menggunakan widget DatePicker, widget ini dapat digunakan untuk user guna memasukan tanggal lahir, waktu reservasi, jadwal meeting, dan lainnya yang berhubungan dengan penanggalan. Widget ini perlu di impor dahulu ke pubspec dan file kode.
+- Untuk warna, kita bisa menggunakan widget ColorPicker, dengan widget ini data warna bisa menjadi dinamis sesuai dengan preferensi user. Sama halnya dengan kedua widget diatas, ColorPicker juga perlu di import terlebih dahulu
