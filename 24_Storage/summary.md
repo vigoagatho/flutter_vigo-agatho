@@ -1,0 +1,5 @@
+## Rangkuman Materi Storage
+Berikut merupakan 3 poin rangkuman yang saya dapat dari materi diatas :
+- Storage local dalam flutter ada 2 yakni Shared Preferences dan Local Database dengan SQLite, kedua storage ini sama-sama menyimpan data dalam penyimpanan lokal namun berbeda dalam beberapa poin seperti komplesitas data dan jumlah data.
+- Shared preferences punya format key-value dan umumnya menyimpan data berupa string, integer, dan boolean. Contoh umumnya seperti data pada form login dan search history.
+- SQLite merupakan salah satu local database yang bisa digunakan dalam framework flutter dengan menambahkan packages pada file pubspec.yaml, packages yang digunakan yakni sqflite. Pengolahan dan penyimpanan data pada SQLite tergolong lebih kompleks dibandingkan shared preferences karena dapat melakukan insert, read, update, dan remove data.
