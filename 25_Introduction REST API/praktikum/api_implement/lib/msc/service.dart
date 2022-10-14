@@ -35,4 +35,38 @@ abstract class DataServices {
       throw Exception(e.toString());
     }
   }
+
+  static Future<PostModel?> updateUser(String name, String job) async{
+    try{
+      var response = await Dio().put('https://reqres.in/api/users/4', 
+      data: {
+        'name': name,
+        'job' : job
+      }
+      );
+
+      if(response.statusCode==200){
+        return PostModel(name: response.data['name'], job: response.data['job']);
+      }
+
+      return null;
+    }
+    catch(e){
+      throw Exception(e.toString());
+    }
+  }
+
+  static Future<PostModel?> deleteUser() async{
+    try{
+      var response = await Dio().delete('https://reqres.in/api/users/4');
+      if(response.statusCode==204){
+        return PostModel(name: response.data, job: response.data);
+      }
+
+      return null;
+    }
+    catch(e){
+      throw Exception(e.toString());
+    }
+  }
 }

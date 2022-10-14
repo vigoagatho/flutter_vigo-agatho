@@ -158,7 +158,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           primary: Colors.purple.shade800),
-                      onPressed: () {},
+                      onPressed: () async {
+                        PostModel? result = await DataServices.updateUser(nameController.text, jobController.text);
+
+                        if(result != null){
+                          setState(() {
+                            postModel = result;
+                          });
+                        }
+                      },
                       child: const Text('Put')),
                 ),
                 Container(
@@ -167,7 +175,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           primary: Colors.purple.shade800),
-                      onPressed: () {},
+                      onPressed: () async {
+                        PostModel? result = await DataServices.deleteUser();
+
+                        if(result != null){
+                          setState(() {
+                            postModel = result;
+                          });
+                        }
+                      },
                       child: const Text('Delete')),
                 ),
               ],
