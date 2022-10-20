@@ -1,0 +1,5 @@
+## Ranguman Materi Finite State Machines
+Berikut adalah 3 poin rangkuman yang saya dapatkan dari materi diatas :
+- Finite State Machines adalah sebuah mesin yang memiliki sejumlah state, tiap state menjadi sebuah indikasi akan apa yang sedang terjadi sebelumnya, jadi tiap state disini saling melengkapi, umumnya state yang ada adalah idle, running, dan error.
+- Finite State Machines akan terlihat lebih jelas apabila kita tautkan atau tampilkan pada widget di kode kita, seperti contohnya saat running sistem akan menampilkan proggres bar atau circular loading indicator, kemudian saat error akan terdapat alert error, dan idle bisa menampilkan data.
+- Unit test merupakan testing yang dilakukan pada unit dalam perangkat lunak, unit yang dimaksud disini adalah method atau fungsi yang akan kita gunakan dalam kode. Tujuan dari unit test ini sendiri adalah untuk memasatikan fungsi kita bisa dilakukan sebelum nantinya kita melanjutkan pekerjaan kita, serta juga bisa menjadi sarana dokumentasi dalam kode yang bisa jadi track record pekerjaan kita.
