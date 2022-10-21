@@ -23,7 +23,7 @@ class MenuService with ChangeNotifier {
   getMenu() async {
     changeState(MenuState.loading);
     try {
-      final m = await TestApi.getData();
+      final m = await TestApi().getData();
       _menu = m;
       notifyListeners();
       changeState(MenuState.none);

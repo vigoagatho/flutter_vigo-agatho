@@ -15,7 +15,7 @@ void main() {
       when(testApi.getData())
           .thenAnswer(
             (_) async => <TestModel>[TestModel(id: 1, name: 'a')]);
-      var menuService = await TestApi.getData();
+      var menuService = await testApi.getData();
       expect(menuService.isNotEmpty, true);
     });
   });

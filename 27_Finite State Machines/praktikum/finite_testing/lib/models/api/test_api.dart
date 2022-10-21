@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:finite_testing/models/test_model.dart';
 
 class TestApi {
-  static Future<List<TestModel>> getData() async {
+  Future<List<TestModel>> getData() async {
     final response = await Dio().get(
         'https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/foods');
 
